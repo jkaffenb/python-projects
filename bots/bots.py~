@@ -1,0 +1,101 @@
+"""
+ *****************************************************************************
+   FILE:  bots.py
+
+   AUTHOR:
+
+   ASSIGNMENT:
+
+   DATE:
+
+   DESCRIPTION:
+
+ *****************************************************************************
+"""
+
+
+from cs110graphics import *
+import random
+
+class Bot:
+    def __init__(self, win, width, center, direction='east', speed=20):
+        """ write the docstring """
+        pass
+        
+    def add_to_window(self):
+        """ write the docstring """
+        pass
+    
+    def add_handler(self, handler):
+        """ provide call-back function for user interaction """
+        # don't modify this.
+        for part in self._parts:
+            part.add_handler(handler)
+            
+    def move(self):
+        """ write the docstring """
+        pass
+            
+    def turn_left(self):
+        """ write the docstring """
+        pass
+
+    def turn_right(self):
+        """ write the docstring """
+        pass
+    
+    def speed_up(self):
+        """ write the docstring """
+        pass
+
+    def slow_down(self):
+        """ write the docstring """
+        pass
+    
+    def crash(self):
+        """ write the docstring """
+        pass
+
+    def uncrash(self):
+        """ write the docstring """
+        pass
+
+    def get_width(self):
+        """ write the docstring """
+        return self._witdh
+
+    def get_center(self):
+        """ write the docstring """
+        return self._center
+
+    def overlaps(self, other):
+        """ write the docstring """
+        pass
+
+        
+class BotHandler(EventHandler):
+    """ A class for handling events for Bots. """
+    def __init__(self, bot):
+        """ Constructor """
+        EventHandler.__init__(self)
+        self._bot = bot
+
+    def handle_mouse_release(self, event):
+        """ This code will run when the user clicks on a bot """
+        pass
+
+            
+def program(win):
+    """ Set up the graphics in the window """
+    # change this as you see fit!
+    bot = Bot(win, 100, (200, 200))
+    bot.add_to_window()
+    bot.add_handler(BotHandler(bot))
+
+
+def main():
+    """ The main program """
+    StartGraphicsSystem(program)
+
+if __name__ == "__main__":
+    main()

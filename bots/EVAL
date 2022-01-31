@@ -1,0 +1,54 @@
+====== Testing Begin ======
+First running your program.
+Checking code syntax...
+************* Module bots
+bots.py:21:0: C0111: Missing class docstring (missing-docstring)
+bots.py:19:0: C0411: standard import "import random" should be placed before "from cs110graphics import *" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 9.82/10
+
+There are warnings.
+Running...bots.py
+Next running our program.  Two of your bots move toward each other, 
+crash, then turn around and move back.
+Checking code syntax...
+************* Module authbots
+authbots.py:16:19: C0326: Exactly one space required around assignment
+        self._parts=[sq]
+                   ^ (bad-whitespace)
+authbots.py:28:0: C0301: Line too long (89/80) (line-too-long)
+authbots.py:1:0: C0111: Missing module docstring (missing-docstring)
+authbots.py:6:0: C0111: Missing class docstring (missing-docstring)
+authbots.py:6:0: R0205: Class 'Bot' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+authbots.py:18:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:22:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:26:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:34:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:38:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:42:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:46:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:50:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:53:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:56:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:59:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:62:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:64:19: W0212: Access to a protected member _corners of a client class (protected-access)
+authbots.py:65:12: C0103: Variable name "p" doesn't conform to '[a-z_][A-Za-z0-9_]{1,30}$' pattern ('[a-z_][A-Za-z0-9_]{1,30}$' pattern) (invalid-name)
+authbots.py:66:15: W0212: Access to a protected member _pointInside of a client class (protected-access)
+authbots.py:68:12: C0103: Variable name "p" doesn't conform to '[a-z_][A-Za-z0-9_]{1,30}$' pattern ('[a-z_][A-Za-z0-9_]{1,30}$' pattern) (invalid-name)
+authbots.py:73:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:81:4: C0111: Missing method docstring (missing-docstring)
+authbots.py:87:0: C0111: Missing class docstring (missing-docstring)
+authbots.py:97:17: W0621: Redefining name 'Bot' from outer scope (line 6) (redefined-outer-name)
+authbots.py:97:0: C0103: Argument name "Bot" doesn't conform to '[a-z_][A-Za-z0-9_]{1,30}$' pattern ('[a-z_][A-Za-z0-9_]{1,30}$' pattern) (invalid-name)
+authbots.py:97:0: C0111: Missing function docstring (missing-docstring)
+authbots.py:127:0: C0111: Missing function docstring (missing-docstring)
+authbots.py:130:0: C0111: Missing function docstring (missing-docstring)
+authbots.py:2:0: C0411: standard import "import random" should be placed before "from cs110graphics import *" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.06/10
+
+There are warnings.
+Running...authbots.py
