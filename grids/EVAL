@@ -1,0 +1,151 @@
+====== Testing Begin ======
+------ 1. test1 ------
+compare_program -i ./student ./authority < grids1.txt
+Here is the input used for this test ************ 
+1 2 3
+4 5 6
+7 8 9
+5
+0
+************************************************* 
+Test passed
+
+PASSED
+
+------ 2. test2 ------
+compare_program -i ./student ./authority < grids2.txt
+Here is the input used for this test ************ 
+3 1 9 5
+4 6 6 1
+8 2 4 5
+2 8 9 2
+2
+2
+************************************************* 
+Test passed
+
+PASSED
+
+------ 3. test3 ------
+compare_program -i ./student ./authority < grids3.txt
+Here is the input used for this test ************ 
+7 3 4 4 9
+3 2 7 5 4
+1 5 6 3 3
+7 8 9 4 5
+6 4 2 1 3
+5
+4
+************************************************* 
+Test passed
+
+PASSED
+
+------ 4. test4 ------
+compare_program -i ./student ./authority < grids4.txt
+Here is the input used for this test ************ 
+8 6 6 5
+7 4 5 4
+6 5 4 3
+5 4 3 2
+6
+7
+************************************************* 
+Test passed
+
+PASSED
+
+------ 5. test5 ------
+compare_program -i ./student ./authority < grids5.txt
+Here is the input used for this test ************ 
+9 9 9
+9 9 9
+9 9 9
+8
+1
+************************************************* 
+Test passed
+
+PASSED
+
+------ 6. test6 ------
+compare_program -i ./student ./authority < grids6.txt
+Here is the input used for this test ************ 
+2 2 2
+2 2 2
+2 2 2
+2
+5
+************************************************* 
+Test passed
+
+PASSED
+
+------ 7. test7 ------
+compare_program -i ./student ./authority < grids7.txt
+Here is the input used for this test ************ 
+1 1 1 1
+1 8 8 1
+1 8 8 1
+1 1 1 1
+8
+6
+************************************************* 
+Test passed
+
+PASSED
+
+------ 8. test8 ------
+compare_program -i ./student ./authority < grids8.txt
+Here is the input used for this test ************ 
+5 4 5 4 5
+4 5 4 5 4
+5 4 5 4 5
+4 5 4 5 4
+5 4 5 4 5
+5
+1
+************************************************* 
+Test passed
+
+PASSED
+
+------ 9. test9 ------
+echo "HIDDEN TEST"
+HIDDEN TEST
+compare_program -q ./student ./authority < grids9.txt
+Test passed
+
+PASSED
+
+------ 10. test10 ------
+echo "HIDDEN TEST"
+HIDDEN TEST
+compare_program -q ./student ./authority < grids10.txt
+Test passed
+
+PASSED
+
+------ 11. test11 ------
+python3.5 harness.py test11
+Testing locate_target
+PASSED
+
+------ 12. test12 ------
+python3.5 harness.py test12
+Testing is_in_bounds
+PASSED
+
+------ 13. test13 ------
+python3.5 harness.py test13
+Testing sum_all_neighbors
+PASSED
+
+------ 14. test14 ------
+python3.5 harness.py test14
+Testing print_zero_grid
+0 
+PASSED
+
+====== Testing End ======
+Passed 14 out of 14
