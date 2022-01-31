@@ -1,0 +1,137 @@
+====== Testing Begin ======
+------ 1. dtest1 ------
+HIDDEN TEST
+Test passed
+
+PASSED
+
+------ 2. dtest2 ------
+HIDDEN TEST
+Test passed
+
+PASSED
+
+------ 3. dtest3 ------
+Here is the input used for this test ************ 
+UJKER WZXUI AQRDT LOMNU
+PIPPIN
+GANDALF HOBBITS MORDOR FRODO RING
+************************************************* 
+Test passed
+
+PASSED
+
+------ 4. dtest4 ------
+Here is the input used for this test ************ 
+ZWGVD OIEZD MKKUQ NEUZW
+WITCHKING
+GANDALF HOBBITS MORDOR FRODO RING
+************************************************* 
+Test passed
+
+PASSED
+
+------ 5. dtest5 ------
+Here is the input used for this test ************ 
+XRIUC NFDIK VRJHI SPVLS QZHUK HYCCO
+SAURON
+GANDALF HOBBITS MORDOR FRODO RING
+************************************************* 
+Test passed
+
+PASSED
+
+------ 6. dtest6 ------
+Here is the input used for this test ************ 
+MMVUF DNGRT WZXIU
+BREE
+GANDALF HOBBITS MORDOR FRODO RING
+************************************************* 
+Test passed
+
+PASSED
+
+------ 7. dtest7 ------
+Here is the input used for this test ************ 
+PLEUR NCBEE ZAIKV WUDNE INSDR
+EOWYN
+GANDALF HOBBITS MORDOR FRODO RING
+************************************************* 
+Test passed
+
+PASSED
+
+------ 8. dtest8 ------
+Here is the input used for this test ************ 
+AFFFJ XHFEB VWNOO EIEMO SFQGT WSLEH VRYYF
+HOBBIT
+GANDALF HOBBITS MORDOR FRODO RING
+************************************************* 
+Test passed
+
+PASSED
+
+------ 9. atest0 ------
+Here is the input used for this test ************ 
+AWGEH OFPVW JTCUA PPVSL SOQST
+POOL
+LIST HEAD************************************************* 
+Test passed
+
+PASSED
+
+------ 10. atest1 ------
+HIDDEN TEST
+Test passed
+
+PASSED
+
+------ 11. atest2 ------
+Here is the input used for this test ************ 
+
+HI
+FOO
+************************************************* 
+Test passed
+
+PASSED
+
+------ 12. atest3 ------
+Here is the input used for this test ************ 
+VULSL AALYS VUNEE
+H
+ONE XX************************************************* 
+Test passed
+
+PASSED
+
+------ 13. atest4 ------
+HIDDEN TEST
+Test passed
+
+PASSED
+
+------ 14. atest5 ------
+Here is the input used for this test ************ 
+NLFPE ARYCE EALOA
+VERYLONGKEYWORDHEREITIS
+SHORT MESSAGE
+
+************************************************* 
+Test passed
+
+PASSED
+
+------ 15. atest6 ------
+Here is the input used for this test ************ 
+TJVTS SWYPP FVXYG GQENLO
+PORCUPINE
+EVERY
+
+************************************************* 
+Test passed
+
+PASSED
+
+====== Testing End ======
+Passed 15 out of 15
